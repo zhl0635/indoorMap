@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <canvas catchtouchstart="bindtouchstartFunc" catchtouchmove="bindtouchmoveFunc" id="firstCanvas" style="width: {{canvasWidth}}; height: {{canvasHeight}};" canvas-id="firstCanvas"></canvas>
+  <view class="btn_container">
+    <button type="primary" plain bindtap="initScalePostion">恢复</button>
+    <button type="primary" plain  bindtap="enlargeMap">放大</button>
+    <button type="primary" plain  bindtap="narrowMap">缩小</button>
+  </view>
+</view>
